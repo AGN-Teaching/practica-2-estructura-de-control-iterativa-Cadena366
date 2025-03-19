@@ -8,7 +8,7 @@ k = (len(mensaje) % 13) + 3
 # Variable para almacenar el mensaje cifrado
 mensaje_cifrado = ""
 
-# Aplica el cifrado César
+# Aplico el cifrado César
 for char in mensaje:
     if 'A' <= char <= 'Z':  
         nuevo_char = chr((ord(char) - ord('A') + k) % 26 + ord('A'))
